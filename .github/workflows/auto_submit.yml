@@ -12,13 +12,13 @@
 #       - main
 #   schedule:
 #     # 每天北京时间8点执行，第二个0代表小时，以此类推，如：9点——'0 1 * * *''
-#     - cron: '0 0 * * *'
+#     - cron: ' 13 2 1 * * *'
 
 # jobs:
 #   submit_user1:
 
 #     runs-on: ubuntu-latest
-#     environment: TUT # 此处填入环境名
+#     environment: dailystuday # 此处填入环境名
 #     # 使用action运行本地api服务时打开
 #     # services:
 #     #   # Label used to access the service container
